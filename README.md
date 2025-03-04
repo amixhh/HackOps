@@ -74,16 +74,6 @@ Get transcription for consultation.
   - `consultationId`: Consultation ID
 - Returns: Consultation transcription
 
-## Environment Variables Required
-
-- `MONGODB_URI`: MongoDB connection string
-- `JWT_SECRET`: Secret key for JWT token generation
-- `PORT`: Server port number (default: 3000)
-- `DEEPGRAM_API_KEY`: API key for Deepgram transcription service
-- `AWS_ACCESS_KEY_ID`: AWS access key for Comprehend Medical
-- `AWS_SECRET_ACCESS_KEY`: AWS secret key for Comprehend Medical
-- `AWS_REGION`: AWS region for Comprehend Medical service
-
 ## Payment Endpoints
 
 ### POST /api/payment/create-payment
@@ -185,6 +175,16 @@ Get chat history for consultation.
 - Parameters:
   - `consultationId`: string
 - Returns: Array of chat messages
+
+## Environment Variables Required
+
+- `MONGODB_URI`: MongoDB connection string
+- `JWT_SECRET`: Secret key for JWT token generation
+- `PORT`: Server port number (default: 3000)
+- `DEEPGRAM_API_KEY`: API key for Deepgram transcription service
+- `AWS_ACCESS_KEY_ID`: AWS access key for Comprehend Medical
+- `AWS_SECRET_ACCESS_KEY`: AWS secret key for Comprehend Medical
+- `AWS_REGION`: AWS region for Comprehend Medical service
 
 ## Additional Dependencies
 
