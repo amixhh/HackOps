@@ -1,0 +1,56 @@
+.auth-tabs {
+  display: flex;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.auth-tabs button {
+  flex: 1;
+  padding: 15px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: #666;
+  font-weight: 500;
+}
+
+.auth-tabs button.active {
+  color: #007bff;
+  border-bottom-color: #007bff;
+}
+
+.login-form,
+.register-form {
+  margin-top: 20px;
+}
+
+.login-form h2,
+.register-form h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.form-row .form-group {
+  flex: 1;
+}
+
+.privacy-note {
+  margin: 20px 0;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #666;
+}
+
+.form-actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+} 
